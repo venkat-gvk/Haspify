@@ -78,6 +78,8 @@ const Input = () => {
     const location = window.location.href;
     let antified = `${location}h/${hash}`;
 
+    console.log(antified);
+
     try {
       await setDoc(doc(db, "links", hash), link);
 
