@@ -12,9 +12,9 @@ const app = createRoot(root);
 
 app.render(
   <BrowserRouter>
-    {/* <StrictMode> */}
-    <App />
-    {/* </StrictMode> */}
+    <StrictMode>
+      <App />
+    </StrictMode>
   </BrowserRouter>
 );
 

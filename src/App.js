@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Error_404 from "./pages/Error_404";
+import Error404 from "./pages/Error404";
 import Input from "./pages/Input";
 import ValidateUrl from "./pages/ValidateUrl";
 
@@ -15,9 +15,9 @@ function App() {
             <Route path=":hashedUrl" />
           </Route>
 
-          <Route path="sorry" element={<Error_404 />} />
+          <Route path="sorry" element={<Error404 />} />
 
-          <Route path="*" element={<Error_404 />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </main>
     </div>

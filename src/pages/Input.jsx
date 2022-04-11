@@ -14,7 +14,6 @@ const Input = () => {
   const [timer, setTimer] = useState("");
   const [checkPassword, setCheckPassword] = useState(false);
   const [checkTimer, setCheckTimer] = useState(false);
-  const [isPassWrong, setIsPassWrong] = useState(false);
 
   const [loading, setLoading] = useState(false);
 
