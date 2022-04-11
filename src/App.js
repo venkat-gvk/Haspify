@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Error_404 from "./pages/Error_404";
+import Input from "./pages/Input";
+import ValidateUrl from "./pages/ValidateUrl";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="grid place-items-center mt-5 space-y-8">
+      {/* Routes */}
+      <main className="w-10/12">
+        <Routes>
+          <Route path="/" element={<Input />} />
+
+          <Route path="h" element={<ValidateUrl />}>
+            <Route path=":hashedUrl" />
+          </Route>
+
+          <Route path="sorry" element={<Error_404 />} />
+
+          <Route path="*" element={<Error_404 />} />
+        </Routes>
+      </main>
     </div>
   );
 }
