@@ -29,7 +29,7 @@ const Modal = ({ finishedUrl, setFinishedUrl }) => {
     >
       <div className="w-[80%] rounded-lg bg-white opacity-100 h-52 shadow md:w-1/3 md:h-1/3 p-2 flex flex-col justify-center items-center space-y-10">
         <input
-          className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-5/6 p-2.5 focus:ring focus:ring-pink-400 focus:border-none"
+          className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-5/6 p-2.5 focus:ring-1 focus:ring-pink-400 focus:outline-none"
           type="text"
           readOnly
           value={finishedUrl}

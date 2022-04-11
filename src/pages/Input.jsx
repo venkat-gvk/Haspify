@@ -108,7 +108,7 @@ const Input = () => {
             type="url"
             id="urllink"
             name="url"
-            className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring focus:ring-pink-400 focus:border-none"
+            className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:outline-none focus:ring-1 focus:ring-pink-400"
             placeholder="https://example.com"
             required
             value={url}
@@ -122,7 +122,7 @@ const Input = () => {
               id="checkPassword"
               name="checkPassword"
               type="checkbox"
-              className="w-4 h-4 bg-gray-50 rounded-md border border-gray-300 focus:ring focus:ring-pink-300 "
+              className="w-4 h-4 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:ring focus:ring-pink-300 "
               checked={checkPassword}
               onChange={handlecheckPassword}
             />
@@ -170,7 +170,7 @@ const Input = () => {
               type="password"
               id="password"
               name="password"
-              className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring focus:ring-pink-400 focus:border-none"
+              className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring-1 focus:ring-pink-400 focus:outline-none"
               required
               value={password}
               onChange={handlePassword}
@@ -190,7 +190,7 @@ const Input = () => {
               type="number"
               id="checkTimer"
               name="timer"
-              className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring focus:ring-pink-400 focus:border-none"
+              className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring-1 focus:ring-pink-400 focus:outline-none"
               required
               placeholder={10}
               value={timer}

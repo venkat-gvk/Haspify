@@ -135,7 +135,7 @@ const ValidateUrl = () => {
                   type="password"
                   id="password"
                   name="password"
-                  className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring focus:ring-pink-400 focus:border-none"
+                  className="bg-gray-50 border border-pink-300 text-gray-800 text-sm rounded-lg w-full p-2.5 focus:ring-1 focus:ring-pink-400 focus:outline-none"
                   required
                   value={password}
                   onChange={(e) => {
