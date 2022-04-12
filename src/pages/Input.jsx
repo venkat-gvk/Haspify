@@ -205,7 +205,7 @@ const Input = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="text-white bg-gradient-to-r tracking-wide from-pink-400 via-pink-500 to-pink-500 hover:bg-gradient-to-br focus:ring-2 focus:ring-pink-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2 w-3/6 transition-all hover:bg-pink-500 hover:cursor-pointer"
+              className="text-white bg-gradient-to-r tracking-wide from-pink-400 via-pink-500 to-pink-500 hover:bg-gradient-to-br focus:ring-2 focus:ring-pink-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2 w-3/6 transition-all focus:outline-none hover:bg-pink-500 hover:cursor-pointer"
             >
               Haspify
             </button>
@@ -216,7 +216,7 @@ const Input = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="text-white bg-gradient-to-r tracking-wide from-pink-400 via-pink-500 to-pink-500 hover:bg-gradient-to-br focus:ring-2 focus:ring-pink-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2 w-3/6 transition-all hover:bg-pink-500 hover:cursor-pointer"
+              className="text-white bg-gradient-to-r tracking-wide from-pink-400 via-pink-500 to-pink-500 hover:bg-gradient-to-br focus:ring-2 focus:ring-pink-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-2 w-3/6 transition-all focus:outline-none hover:bg-pink-500 hover:cursor-pointer"
             >
               Haspify
             </button>
